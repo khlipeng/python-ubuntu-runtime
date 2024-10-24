@@ -7,7 +7,7 @@ on:
       - 'python-ubuntu-runtime.Dockerfile'
 
 jobs:
-  build-python-runtime:
+  build-python-ubuntu-runtime:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
