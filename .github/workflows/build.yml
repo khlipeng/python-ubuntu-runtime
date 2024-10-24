@@ -7,7 +7,7 @@ on:
       - 'python-ubuntu-runtime.Dockerfile'
 
 jobs:
-  build-opencv-cuda-devel:
+  build-python-runtime:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
