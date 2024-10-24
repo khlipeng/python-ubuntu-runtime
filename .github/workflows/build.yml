@@ -18,4 +18,4 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - run: make opencv-cuda-devel
+      - run: make python-runtime
